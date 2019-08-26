@@ -1,0 +1,23 @@
+{
+  "bugs": {
+    "url": "https://github.com/paulkjoseph/ionic-native-media-streaming-service/issues"
+  },
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/paulkjoseph/ionic-native-media-streaming-service#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/media-streaming-service",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulkjoseph/ionic-native-media-streaming-service.git"
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.0"
+}
