@@ -6,6 +6,13 @@ export interface MediaStream {
     description: string;
     cover: string;
 }
+interface MediaStreamRequest {
+    channelId: string;
+    channelName: string;
+    notificationId: string;
+    mediaStreams: MediaStream[];
+    selectedIndex: string;
+}
 export declare enum MediaPlayerState {
     play = 0,
     pause = 1,
@@ -13,8 +20,9 @@ export declare enum MediaPlayerState {
     close = 3
 }
 export declare class MediaStreamingService extends IonicNativePlugin {
-    start(channelId: string, channelName: string, notificationId: string, mediaStreams: MediaStream[], selectedIndex: string): Promise<any>;
-    play(selectedIndex: string): Promise<any>;
-    pause(): Promise<any>;
-    stop(): Promise<any>;
+    start(options?: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): Promise<any>;
+    play(selectedIndex: string, successCallback?: Function, errorCallback?: Function): Promise<any>;
+    pause(successCallback?: Function, errorCallback?: Function): Promise<any>;
+    stop(successCallback?: Function, errorCallback?: Function): Promise<any>;
 }
+export {};
