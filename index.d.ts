@@ -23,9 +23,9 @@ export declare enum MediaPlayerState {
 export declare class MediaStreamingServiceOriginal extends IonicNativePlugin {
     start(options: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): void;
     play(options: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): void;
-    pause(options: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): void;
-    stop(options: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): void;
-    close(options: MediaStreamRequest, successCallback?: Function, errorCallback?: Function): void;
+    pause(successCallback?: Function, errorCallback?: Function): void;
+    stop(successCallback?: Function, errorCallback?: Function): void;
+    close(successCallback?: Function, errorCallback?: Function): void;
 }
 
 export declare const MediaStreamingService: MediaStreamingServiceOriginal;
