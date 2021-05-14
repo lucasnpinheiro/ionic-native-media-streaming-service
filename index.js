@@ -33,7 +33,7 @@ var MediaStreamingServiceOriginal = /** @class */ (function (_super) {
     MediaStreamingServiceOriginal.pluginName = "MediaStreamingService";
     MediaStreamingServiceOriginal.plugin = "cordova-plugin-media-streaming-service";
     MediaStreamingServiceOriginal.pluginRef = "cordova.plugins.mediaStreamingService";
-    MediaStreamingServiceOriginal.repo = "https://github.com/paulkjoseph/cordova-plugin-media-streaming-service";
+    MediaStreamingServiceOriginal.repo = "https://github.com/lucasnpinheiro/cordova-plugin-media-streaming-service";
     MediaStreamingServiceOriginal.platforms = ["Android"];
     return MediaStreamingServiceOriginal;
 }(IonicNativePlugin));

@@ -40,7 +40,7 @@ var MediaStreamingService = /** @class */ (function (_super) {
     MediaStreamingService.pluginName = "MediaStreamingService";
     MediaStreamingService.plugin = "cordova-plugin-media-streaming-service";
     MediaStreamingService.pluginRef = "cordova.plugins.mediaStreamingService";
-    MediaStreamingService.repo = "https://github.com/paulkjoseph/cordova-plugin-media-streaming-service";
+    MediaStreamingService.repo = "https://github.com/lucasnpinheiro/cordova-plugin-media-streaming-service";
     MediaStreamingService.platforms = ["Android"];
     MediaStreamingService = __decorate([
         Injectable()
